@@ -110,6 +110,7 @@ Resultados que normalmente a API retorna:
 - O isolamento por `profileId` é estrito para evitar mistura de contexto entre pessoas.
 - Se um `profileId` não estiver indexado, `/ask` retorna `404 PROFILE_NOT_INDEXED`.
 - Em versões mais recentes do Chroma, o healthcheck funcional é `GET /api/v2/heartbeat` (o endpoint `v1` pode retornar `410`).
+- Este projeto **não usa LangChain**. A orquestração do fluxo RAG (ingestão, embeddings, busca vetorial, montagem de contexto e geração da resposta) foi implementada diretamente no código para manter o MVP simples e transparente.
 
 ## Troubleshooting
 - Windows PowerShell pode bloquear `npm`/`npx` (`.ps1` não assinado):
