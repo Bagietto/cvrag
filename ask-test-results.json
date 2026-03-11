@@ -1,0 +1,11 @@
+﻿{
+    "question":  "Quais são as principais habilidades técnicas dele?",
+    "status":  200,
+    "ok":  true,
+    "citations_count":  5,
+    "top_score":  0.4179,
+    "answer_preview":  "Com base nos contextos fornecidos, as principais habilidades técnicas são:\n\n**Linguagens e Frameworks:**\n- **Back-end:** .NET Core, C#, WebAPI REST, MVC\n- **Front-end:** ReactJS, React Native, Angular (incluindo AngularJ",
+    "answer_full":  "Com base nos contextos fornecidos, as principais habilidades técnicas são:\n\n**Linguagens e Frameworks:**\n- **Back-end:** .NET Core, C#, WebAPI REST, MVC\n- **Front-end:** ReactJS, React Native, Angular (incluindo AngularJS v1)\n\n**Bancos de Dados:**\n- SQL Server, SQLite, MongoDB, Oracle, Redis\n\n**Arquitetura e Integração:**\n- Microsserviços, API REST, RabbitMQ (mensageria)\n\n**Práticas de Desenvolvimento:**\n- DDD (Domain-Driven Design), TDD (Test-Driven Development)\n- Refatoração e otimização de sistemas legados\n- Padronização de código e boas práticas\n\n**Ferramentas e Controle de Versão:**\n- Git e GitFlow\n- Azure Boards (para gestão ágil)\n\n**Metodologias:**\n- Scrum (abordagem ágil)\n\n**Outras Competências Técnicas:**\n- Desenvolvimento de APIs escaláveis\n- Melhoria de performance de bancos de dados\n- Processamento de dados em tempo real",
+    "error_code":  null,
+    "error_message":  null
+}
